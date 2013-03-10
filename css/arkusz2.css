@@ -1,0 +1,85 @@
+table{
+	border:1px solid #0F238C;
+	border-collapse : collapse;
+	margin: 0 auto;
+}
+th{
+	padding:5px;
+	font-family:Arial;
+  	font-size:30px;
+  	color:#ffffff;
+	background:#0F238C;
+}
+td{
+	padding: 5px;
+	font-family:Arial;
+  	font-size:35px;
+  	color:#0F238C;
+	font-weight:700;
+	border: 1px solid #0F238C;;
+}
+.number_blue{
+    font-size:160px;
+    font-weight: 700;
+	text-align:center;
+	font-family:Arial;
+	color: #0F238C;
+}
+.number_red{
+	color:#CE0000;
+	font-size:160px;
+    font-weight: 700;
+	text-align:center;
+	font-family:Arial;
+}
+.t{
+  	font-family:Arial;
+  	font-size:70px;
+  	color:#0F238C;
+  	font-weight:700;
+}
+.data{
+	font-family:Arial;
+	font-size:40px;
+	color:#0F238C;
+	font-weight:700; 
+}
+#pendule{
+	font-family:Arial;
+	font-size:100px;
+	color:#0F238C;
+	font-weight:700;
+}
+.baza{
+
+	font-family:Arial;
+	font-size:20px;
+	color:#0F238C;
+	font-weight:700; 
+}
+
+.exceptionGrey{
+	padding:5px;
+	font-family:Arial;
+  	font-size:40px;
+  	color:#666666;
+  	font-weight:700;
+	background-color: #e0e0e0;
+}
+.description{
+	font-family:Arial;
+  	font-size:21px;
+  	color:#0F238C;
+  	font-weight:700;
+}
+.pingFailedRed {
+	font-size:40px; 
+	color:#000;
+}
+.exceptionRed{
+	background-color: #FFBDA6;
+}
+.exceptionRed2{
+	background-color: #ffd9ca;
+	/* #e2f0d6 */
+}

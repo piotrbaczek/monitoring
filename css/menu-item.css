@@ -1,0 +1,244 @@
+/* CSS FOR MENU ITEM OF TYPE "top" */
+
+.Custom_menuItem_top_regular,.Custom_menuItem_top_over,.Custom_menuItem_top_click,.Custom_menuItem_top_disabled,.Custom_menuItem_top_active{
+	height:20px;
+}
+.Custom_menuItem_top_regular div,.Custom_menuItem_top_over div,.Custom_menuItem_top_click div,.Custom_menuItem_top_disabled div,.Custom_menuItem_top_active div{
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.Custom_menuItem_top_regular{	/* Top level menu item - Regular state */
+	padding-left:7px;
+	padding-right:7px;
+	margin-right:0px;
+	padding-top:5px;
+	padding-bottom:1px;	
+	cursor:pointer;
+	line-height:16px;
+	margin-top:0px;
+	color: white;
+	font: bold 11px Verdana;
+	
+	
+}
+
+.Custom_menuItem_top_over{ /* Top level menu item - Mouse over state */
+	padding-left:7px;
+	padding-right:7px;
+	margin-right:0px;
+	padding-top:5px;
+	padding-bottom:1px;	
+	cursor:pointer;
+	line-height:16px;
+	margin-top:0px;	
+	color: white;
+	font: bold 11px Verdana;
+	background-color:#798BBD;
+}
+
+.Custom_menuItem_top_active{	/* Top level menu item - Active state - this is typical the state for menu item 1 when a sub group is expanded and the mouse is located over one of the sub menu items */
+	padding-left:7px;
+	padding-right:7px;
+	margin-right:0px;
+	padding-top:5px;
+	padding-bottom:1px;	
+	cursor:pointer;
+	line-height:16px;
+	margin-top:0px;	
+	color: white;
+	font: bold 11px Verdana;
+}
+
+.Custom_menuItem_top_click{	/* Top level menu item - Mouse click state */
+	padding-left:7px;
+	padding-right:7px;
+	margin-right:0px;
+	padding-top:5px;
+	padding-bottom:1px;	
+	cursor:pointer;
+	line-height:16px;
+	margin-top:0px;	
+	color: white;
+	font: bold 11px Verdana;
+	background-color:#798BBD;
+}
+
+.Custom_menuItem_top_disabled{	/* Disabled menu item */
+	padding-left:7px;
+	padding-right:7px;
+	margin-right:0px;
+	padding-top:5px;
+	padding-bottom:1px;	
+	cursor:pointer;
+	line-height:16px;
+	margin-top:0px;	
+	color: white;
+	font: bold 11px Verdana;
+}
+
+.Custom_menuItem_top_disabled img,.Custom_menuItem_top_disabled div{
+	filter:alpha(opacity=30);
+	opacity:0.3;
+
+}
+
+.Custom_menuItem_top_disabled div,.Custom_menuItem_top_active div, .Custom_menuItem_top_click div, .Custom_menuItem_top_regular div,.Custom_menuItem_top_over div{	/* divs for the text,icon and arrow of a menu item */
+	float:left;
+	padding-left:4px;
+	padding-right:4px;
+}
+
+/* CSS FOR THE SMALL ARROW DIV - WHEN YOU CLICK ON THIS DIV, SUB ELEMENTS WILL SHOW */
+.Custom_menuItem_top_arrowShowSub{
+	width:12px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-image: url('../img/menu-images/menu_strip_down_arrow.png');
+	margin:0px;
+	margin-right:-1px;
+	/* ma\rgin-right:-3px;	/* Size of padding-right of top menu items - used to get the arrow to apear at the right of the menu item */	
+	padding:0px;
+	height:16px;
+	margin-left:2px;
+	float:right;
+}
+
+.Custom_menuItem_top_over .Custom_menuItem_top_arrowShowSub,
+.Custom_menuItem_top_click .Custom_menuItem_top_arrowShowSub
+{	/* Sub menu arrows */
+	margin-left:2px;
+	
+}
+
+/* CSS FOR SEPARATOR */
+
+.Custom_menuItem_separator_top{	/* Separator of type "top" */
+	height:26px;
+	margin-top:0px;
+	margin-bottom:0px;
+	width:1px;
+	padding-left:0px;
+	padding-right:0px;
+	background-repeat:repeat-y;
+	background-image:url('../img/menu-images/menu_strip_separator-gray.gif');
+	
+}
+
+
+/* CSS FOR MENU ITEM OF TYPE "sub" */
+
+.Custom_menuItem_sub_regular, .Custom_menuItem_sub_over,.Custom_menuItem_sub_click,.Custom_menuItem_sub_disabled,.Custom_menuItem_sub_active{	/* Commom css for regular, mouse over and mouse click items */
+	clear:both;	
+	height:18px;	
+	padding-left:4px;
+	padding-right:4px;
+	padding-top:2px;
+	padding-bottom:2px;	
+	cursor:pointer;	
+	margin:0px;
+	background-color:#4A63A6;
+	border-right: 1px solid white;
+	border-top: 1px solid white;
+	color: white;
+	font: 11px Verdana;
+	
+}
+.Custom_menuItem_sub_disabled{
+	cursor:default;
+}
+.Custom_menuItem_sub_disabled div,.Custom_menuItem_sub_disabled{	/* Disabled sub menu item - Here, we apply the rules on the divs inside the element, i.e. the div for the icon, text and arrow */
+	filter:alpha(opacity=30);
+	opacity:0.3;
+}
+.Custom_menuItem_sub_regular div, .Custom_menuItem_sub_over div,.Custom_menuItem_sub_click div{
+	float:left;	/* To get the icons and text of sub elements side by side */
+}
+
+
+.Custom_menuItem_sub_regular div, .Custom_menuItem_sub_over div,.Custom_menuItem_sub_click div{
+	float:left;	/* To get the icons and text of sub elements side by side */
+}
+
+.Custom_menuItem_sub_over,.Custom_menuItem_sub_active{	/* Mouse over effect */	
+	background-color:#798BBD;		
+}
+
+.Custom_menuItem_sub_click{	/* Mouse click effect */
+	background-color:#798BBD;
+}
+
+.Custom_menuItem_sub_click div, .Custom_menuItem_sub_regular div,.Custom_menuItem_sub_over div,.Custom_menuItem_sub_active div,.Custom_menuItem_sub_disabled div{	/* divs for the text,icon and arrow of a menu item */
+	float:left;
+	padding-left:1px;
+	padding-right:1px;
+	
+}
+.Custom_menuItem_sub_arrowShowSub{	/* Arrow div for sub elements (Right pointing arrow ) */
+	background-image:url('../img/menu-images/menu-bar-right-arrow.png');	/* Path relative to the css file */
+	width:18px;
+	height:18px;
+	text-align:right;
+	position:absolute;
+	right:2px;
+	background-repeat:no-repeat;
+	background-position: center right;
+}
+
+
+.Custom_menuItem_separator_sub{	/* Separator of type "sub" */
+	height:1px;
+	margin-top:1px;
+	margin-bottom:1px;
+	margin-left:24px;
+	padding-right:3px;
+	background-color:#aeaeae;
+	
+}
+
+
+
+
+
+
+/************************************************************************************************************
+
+	DHTML Suite for Applications
+	(C) www.dhtmlgoodies.com, August 2006
+
+	CSS for the Custom_tableWidget class.
+	
+	Terms of use:
+	Look at the terms of use at http://www.dhtmlgoodies.com/index.html?page=termsOfUse
+	
+	Thank you!
+	
+	www.dhtmlgoodies.com
+	Alf Magne Kalleland
+
+************************************************************************************************************/
+
+.Custom_menuBar_top{	/* The bar that is parent of the menu strip */
+	height:26px;
+	width:100%;
+	background-repeat:repeat-x;
+	font-family: Arial;
+	font-size:12px;
+	z-index:100000;	
+	background-image:url('../img/menu-images/menu_strip_bg_gray.gif');
+}
+
+.Custom_menuBar_sub{
+	position:absolute;
+	background-color:#FFF;
+	/* background-image:url('../demo-images/menu-bar-gradient-gray.gif');	 Background image for sub menu items */
+	background-repeat:repeat-y;
+	background-position: left center;
+	display:inline;
+}
+
+
+
+
+
+
+

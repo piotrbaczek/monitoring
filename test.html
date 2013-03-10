@@ -1,0 +1,40 @@
+<html>
+<head>
+<script type="text/javascript" src="js/jQuery.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.7.2.custom.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.mod.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$("#tabelkazwynikiem").tablesorter();
+});
+</script>
+<link rel="stylesheet" type="text/css" href="css/deployment.css" /> 
+</head>
+<body>
+<center>
+<table id="tabelkazwynikiem" border="1">
+<thead>
+<tr>
+<th>ID</th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Piotr</td>
+</tr>
+<tr class="expand-child">
+<td>1.5</td>
+<td>Piotr.5</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Andrzej</td>
+</tr>
+</tbody>
+</table>
+</center>
+</body>
+</html>
+

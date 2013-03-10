@@ -1,0 +1,91 @@
+.TESTcpBorder td{
+	border: 0 solid white;
+	}
+	.TESTcpYearNavigation,
+	.TESTcpMonthNavigation
+	{
+		background-color:#ffffff;
+		color: #0f238c;
+		text-align:center;
+		vertical-align:center;
+		text-decoration:none;
+		font-weight:bold;
+	}
+	.TESTcpDayColumnHeader,
+	.TESTcpYearNavigation,
+	.TESTcpMonthNavigation,
+	.TESTcpCurrentMonthDate,
+	.TESTcpCurrentMonthDateDisabled,
+	.TESTcpOtherMonthDate,
+	.TESTcpOtherMonthDateDisabled,
+	.TESTcpCurrentDate,
+	.TESTcpCurrentDateDisabled,
+	.TESTcpTodayText,
+	.TESTcpTodayTextDisabled,
+	.TESTcpText
+	{
+		font-family:arial;
+		font-size:8pt;
+		color:#0f238c;
+	}
+	TD.TESTcpDayColumnHeader
+	{
+		text-align:right;
+		border:solid thin #ffffff;
+		border-width:0 0 1 0;
+		font-weight:bold;
+	}
+	.TESTcpCurrentMonthDate,
+	.TESTcpOtherMonthDate,
+	.TESTcpCurrentDate
+	{
+		text-align:right;
+		text-decoration:none;
+	}
+	.TESTcpCurrentMonthDateDisabled,
+	.TESTcpOtherMonthDateDisabled,
+	.TESTcpCurrentDateDisabled
+	{
+		color:#D0D0D0;
+		text-align:right;
+		text-decoration:line-through;
+	}
+	.TESTcpCurrentMonthDate
+		{
+			color:#0f238c;
+		}
+	.TESTcpCurrentDate
+		{
+			color: #ffae5c;
+			font-weight:bold;
+		}
+	.TESTcpOtherMonthDate
+	{
+		color:#b1b1b1;
+	}
+	TD.TESTcpCurrentDate
+	{
+		border-width:1;
+		border:solid thin #ffffff;
+	}
+	TD.TESTcpTodayText,
+	TD.TESTcpTodayTextDisabled
+	{
+		color:#0f238c;
+		border:solid thin #ffffff;
+		padding-left:35%;
+	}
+	A.TESTcpTodayText,
+	SPAN.TESTcpTodayTextDisabled
+	{
+		height:20px;
+	}
+	A.TESTcpTodayText
+	{
+		color: #0f238c;
+		font-weight:bold;
+	}
+	.TESTcpBorder
+	{
+		border:1px solid #c0cae4;
+	}
